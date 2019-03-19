@@ -1,0 +1,17 @@
+<h1>all_states</h1>
+
+<table>
+  <tr>
+    <th>field1</th>
+    <th>field2</th>
+  </tr>
+<% @state.each do |state| %>
+  <tr>
+    <td><%= state.name %></td>
+    <td><%= state.population %></td>
+    <td><%= state.capital %></td>
+    <td><%= state.area %></td>
+
+  </tr>
+<% end %>
+</table>
